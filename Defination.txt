@@ -1,0 +1,16 @@
+Websites:-
+->Collection of webpages
+
+Home page:-
+->First page of the websites.
+
+HTML:-
+->Hyper Text Markup Language
+->HTML is use to define the structure of the webpages
+
+CSS:-
+->Cascading Style Sheet
+->CSS is use to apply the style to the webpages
+
+JavaScript:-
+->JavaScript is scripting language
