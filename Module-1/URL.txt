@@ -1,0 +1,12 @@
+URL:-
+->Uniform Resource Locator
+
+HTTPs://www.mayntra.com
+------------------------------------------------
+Protocol:-
+->Set of rule
+HTTPs- Hyper Text Transfer Protocol Secure
+HTTP-Hyper Text transfer protocol
+---------------------------------------------------
+Webserver
+WWW-World Wide Web
