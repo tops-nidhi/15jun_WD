@@ -1,0 +1,7 @@
+Tag:-
+1.Pair tag:- 
+-> A tag must be close
+for ex., p, div, span, u
+2.Non pair/ void / empty/ self tag:-
+->A tag don't need to close
+for ex., br, meta, hr, img, link

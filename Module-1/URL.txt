@@ -8,5 +8,5 @@ Protocol:-
 HTTPs- Hyper Text Transfer Protocol Secure
 HTTP-Hyper Text transfer protocol
 ---------------------------------------------------
-Webserver
+Web server
 WWW-World Wide Web
