@@ -1,0 +1,29 @@
+Tag:-
+    ex., <html> </html>
+
+types:
+1.Pair tag:- 
+-> A tag must be close
+for ex., p, div, span, u
+
+2.Non pair/ void / empty/ self tag:-
+->A tag don't need to close
+for ex., br, meta, hr, img, link
+
+Elements:
+- Combination of start tag, content and end tag
+for ex., <tag_name>Content</tag_name>
+
+Attribute:
+- Additional information of that tag
+- Attribute always pass in the start tag
+
+Path:
+- Path is use to locate the file
+
+types:-
+    1.Absolute path
+    - Full path
+    2.Relative path / system path
+    - Sort path
+    
