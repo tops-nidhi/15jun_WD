@@ -5,18 +5,32 @@ types:
 1.Pair tag:- 
 -> A tag must be close
 for ex., p, div, span, u
+                ___________________________________________________
 
 2.Non pair/ void / empty/ self tag:-
 ->A tag don't need to close
 for ex., br, meta, hr, img, link
-
+-----------------------------------------------------------------------
 Elements:
 - Combination of start tag, content and end tag
 for ex., <tag_name>Content</tag_name>
+types:
+1.Block element :-
+-> It takes whole line or space for display on web page
+-> by default with is full width(screen) and hight according to the content
+-> Ex.-p,div,h1..etc
+                ___________________________________________________
+2.Inline elements :
+->It doesn't take full width but it can fit inside other tags
+-> By default width and height is according to the content 
+->Ex.-a,b,i... etc
 
+-----------------------------------------------------------------------
 Attribute:
 - Additional information of that tag
 - Attribute always pass in the start tag
+for ex.<tag name="value">content</tag name>
+-----------------------------------------------------------------------
 
 Path:
 - Path is use to locate the file
@@ -24,6 +38,8 @@ Path:
 types:-
     1.Absolute path
     - Full path
+                ___________________________________________________
+
     2.Relative path / system path
     - Sort path
-    
+-----------------------------------------------------------------------
