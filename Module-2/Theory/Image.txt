@@ -1,0 +1,8 @@
+Image:-
+<img src="" alt="" height="" width="">
+
+-Img tag is use to give the image into the webpage
+- img tag is non-pair tag
+- Source(src) attribute use to give the image url or path.
+- Alternate text(alt) 
+-It's inline element
