@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Form</title>
+</head>
+<body>
+    <fieldset width="500px">
+        <legend>Log-in</legend>
+        <form action="https://www.google.com" method="get">
+            <label for="fnm">first name:</label>
+            <input type="text" name="fnm" id="" value="" placeholder="Enter your first name..." required>
+            <br><br>
+            <label for="lnm">Last name:</label>
+            <input type="text" name="lnm" id="" pattern="[a-z, A-Z]{3,5}" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="" required>
+            <br><br>
+            <label for="phno">Phone no:</label>
+            <input type="tel" name="phno" id="" maxlength="10" minlength="10" required>
+            <br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="" pattern="[a-z, A-Z, 0-9, @, *]{6,8}" required>
+            <br><br>
+            <input type="submit" name="submit" id="" value="Log-in">
+        </form>
+    </fieldset>
+</body>
+</html>
