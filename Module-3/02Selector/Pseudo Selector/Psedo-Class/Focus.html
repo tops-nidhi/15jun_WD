@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        form {
+            width: 50%;
+            margin: auto;
+            padding: 15px;
+            border: 1px solid navy;
+        }
+
+        div {
+            width: 50%;
+            margin: auto;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .bg{
+            background-color: blueviolet;
+        }
+        label {
+            width: 10%;
+        }
+
+        input {
+            width: 90%;
+            height: 30px;
+        }
+        :focus{
+            outline: none;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+
+        <div>
+            <label for="name"><i class="fa-solid fa-user"></i></label>
+            <input type="text" name="name" id="username" placeholder="User Name">
+        </div><br><br>
+        <div>
+            <label for="email"><span class="fa fa-envelope"></span></label>
+            <input type="email" name="email" id="email">
+        </div><br><br>
+        <div>
+            <label for="phone"><span class="fa fa-phone"></span></label>
+            <input type="tel" name="phone" id="phone">
+        </div><br><br>
+        <div>
+            <label for="password"><span class="fa fa-lock"></span></label>
+            <input type="password" name="password" id="password">
+        </div><br><br>
+        <div class="bg">Register</div>
+    </form>
+</body>
+
+</html>
