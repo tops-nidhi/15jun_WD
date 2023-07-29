@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After</title>
+    <style>
+        ul{
+            background: #000;
+            color: aqua;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            height: 50px;
+        }
+        li:hover{
+            cursor: pointer;
+            background-color: lightgray;
+        }
+        li::after{
+            content: '';
+            margin: 3px;
+            border: 1px solid lightgray;
+            color: coral;
+        }
+        li::before
+        {
+            content: '->';
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Log in</li>
+            <li>FeedBack</li>
+            <li>Delivery</li>
+        </ul>
+    </div>
+</body>
+</html>
