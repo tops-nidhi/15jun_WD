@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Absolute</title>
+    <style>
+        .parent {
+            height: 250px;
+            width: 50%;
+            border: 1px solid blue;
+            background-color: lightgray;
+            /* overflow: hidden; */
+            position: relative;
+        }
+
+        .child {
+            height: 150px;
+            width: 250px;
+            background: blue;
+            border: 1px solid aqua;
+            margin: 5px;
+            position: absolute;
+        }
+        .parent #c-1
+        {
+            left: 50px;
+            bottom: 0px;
+        }
+        .parent #c-2
+        {
+            left: 100px;
+            bottom: 50px;
+        }
+        .parent #c-3
+        {
+            left: 150px;
+            bottom: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child" id="c-1">1</div>
+        <div class="child" id="c-2">2</div>
+        <div class="child" id="c-3">3</div>
+    </div>
+</body>
+
+</html>
