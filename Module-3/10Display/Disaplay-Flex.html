@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Felx</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 100%;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row;
+            /* row-gap: 10px;
+            column-gap: 5px; */
+            gap: 5px 10px;
+            justify-content: space-evenly; /*for horizontal*/
+            align-items: center;/*for vertical*/
+            /* flex-wrap: wrap; */
+        }
+        .container .item{
+            height: 120px;
+            width: 120px;
+            border: 1px solid black;
+            background-color: lightblue;
+        }
+        /* .i-2{
+            flex-grow: 10;
+        }
+        .i-3{
+            flex-shrink: 3;
+            flex-grow: 5;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item i-1">1</div>
+        <div class="item i-2">2</div>
+        <div class="item i-3">3</div>
+        <div class="item i-4">4</div>
+        <div class="item i-5">5</div>
+    </div>
+</body>
+</html>
