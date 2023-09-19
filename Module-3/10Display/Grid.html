@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            height: 700px;
+            width: 100%;
+            border: 1px solid black;
+            background: lightsalmon;
+            display: grid;
+            gap: 15px;
+            grid-template-rows: 70px 150px 150px;
+            /* grid-template-columns: 150px 150px 150px; */
+            /* grid-template-rows: repeat(3, 150px);
+            grid-template-columns: repeat(3, 150px); */
+            /* grid-template-rows: repeat(3, 1fr);*/
+            grid-template-columns: repeat(3, 1fr); 
+            /* justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center; */
+        }
+        .container .item{
+            /* height: 120px;
+            width: 120px; */
+            border: 1px solid red;
+            background: brown;
+            color: #fff;
+        }
+        .container .i-1{
+            background: crimson;
+            /* grid-row-start: 1;
+            grid-column-start: 1;
+            grid-row-end: 2;
+            grid-column-end: 4; */
+            grid-area: 1/ 1/ 2/ span 3;
+        }
+        /* .container .i-3{
+            justify-self: baseline;
+            align-self: flex-start;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item i-1">1</div>
+        <div class="item i-2">2</div>
+        <div class="item i-3">3</div>
+        <div class="item i-4">4</div>
+        <div class="item i-5">5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+/* ------------------------------Sub Header start------------------------------- */
+header .sub-header
+{
+    width: inherit;
+    background: #000;
+}
+header .sub-header ul{
+    height: inherit;
+    width: inherit;
+    list-style: none;
+    text-align: center;
+    /* line-height: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header .sub-header ul li{
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid lightgray ;
+    padding: 5px;
+}
+header .sub-header ul li a{
+    color:#fff ;
+    text-decoration: none;
+}
+header .sub-header ul li a .fa{
+    color: aqua;
+    margin: 0px 10px;
+}
+/* ------------------------------Sub Header End------------------------------- */
+/* ------------------------------Main Header start------------------------------- */
+header .main-header{
+    width: inherit;
+    height: auto;
+    display: grid;
+    grid-template-columns : repeat(3,1fr);
+    grid-gap: 4em;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+header .main-header .search{
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header .main-header .search input
+{
+    padding: 10px;
+    width: 80%;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    color: lightgray;
+}
+header .main-header .search input:focus
+{
+    outline: none;
+}
+header .main-header .search .fa
+{
+    padding: 13px;
+    width: 15%;
+    background: aqua;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+header .main-header .logo
+{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+header .main-header .logo h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+header .main-header .logo h1 span{
+    color:#fff ;
+    background: #000;
+    padding: 2px 10px;
+    font-weight: 800;
+}
+header .main-header .share{
+    height:auto !important;
+    width: auto;
+}
+header .main-header .share .fa-brands{
+    padding: 7px;
+    /* width:46%!important;; */
+    text-align: right;
+    background: rgb(101, 136, 240);
+    color: #fff;
+    margin: 10px;
+}
