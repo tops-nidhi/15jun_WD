@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body{
+            height: vh;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        div{
+            /* height: 250px;
+            width: 45%;
+            background: rgba(150, 160, 255, 0.7);*/
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            margin: auto;
+            border: 10px solid lightgray;
+            border-top: 10px solid cornflowerblue;
+            background: lightblue;
+            border-radius: 50%;
+            animation-name: move;
+            animation-delay: 1s;
+            animation-duration: 1s;
+            animation-iteration-count: infinite; 
+            animation-play-state: running;
+            animation-timing-function: linear;
+        }
+        @keyframes move
+        {
+            /* from{background: rgba(150, 100, 255, 0.7);}
+            to{background: rgba(200, 100, 255, 0.7);} */
+            0%{top: 0; left: 0;}
+            25%{top: 25%; left: 25%;}
+            50%{top: 50%; left: 50%;}
+            75%{top: 25%; left: 25%;}
+            100%{top: 0%; left: 0%;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
