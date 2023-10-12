@@ -12,3 +12,14 @@ we use "let" keyword to define variable and assign it with some values, here x=1
 
 3.Const
 -> Can't Reinitialize also cannot redefine
+---------------------------------------------------------
+
+types of variable:
+1.Local Variable
+-> Local variables are declared inside function or block scope only. They have no access outside their own scope.
+
+2.Global Variable
+-> Global variables are declared outside function or block scope . They have access anywhere in that file.
+
+3.Parameters
+-> These parameters are defined within functions and pass as arguments when you call a function.

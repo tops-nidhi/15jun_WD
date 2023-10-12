@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relational</title>
+</head>
+
+<body>
+    Age: <input type="text" name="" id="inp" placeholder="Enter your age....">
+    <button type="button" onclick="check()">Check</button>
+    <!-- <, >, <=, >=, ==, ===, !=, != -->
+    <script>
+        var age = document.getElementById('inp');
+        console.log(age);
+        function check() {
+            if (age.value >= 18) {
+                if (age.value < 60) {
+                    alert("You are eligible to vote");
+                }
+                else {
+                    alert("Sorry you can't vote anymore");
+                }
+            }
+            else if (age.value < 0) {
+                alert("Please enter a valid age");
+            }
+            else {
+                alert("you can't vote yet");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
