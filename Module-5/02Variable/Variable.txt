@@ -1,0 +1,14 @@
+Variable:-
+variable is like a container where we can store the value.
+- Variable name must start with letter or underscore and cannot contain any special character other than underscores, digits(0 to 9)and letters.
+
+Define:-
+1.Var
+-> Can Reinitialize can also redefine.
+
+2.Let
+we use "let" keyword to define variable and assign it with some values, here x=10;
+-> Can Reinitialize but can't redefine
+
+3.Const
+-> Can't Reinitialize also cannot redefine
