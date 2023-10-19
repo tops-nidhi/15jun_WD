@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+</head>
+<body>
+    <p>Switch case is use take a choice from the user.</p>
+    <p>Switch case is pass the multiple choice to the user.</p>
+    <script>
+        let a = 5, b = 3;
+        let choice = prompt("Enter your choice: ");
+        switch (choice) {
+            case "add":
+                document.write(a + b);
+                break;
+            case "subtract":
+                document.write(a - b);
+                break;
+            case "multiplication":
+                document.write(a*b);
+                break;
+            case "division":
+                if (b != 0){
+                    document.write(a / b);
+                } else{
+                    document.write("Cannot divide by zero");}
+                break;
+            default:
+                document.write("Invalid Choice");
+                break;
+        }
+    </script>
+</body>
+</html>
