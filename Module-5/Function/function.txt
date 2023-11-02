@@ -1,0 +1,13 @@
+function 
+1 built in
+------------------------------
+2 UDF(user define function)
+-> Which was define by user
+
+a)without return without parameter
+b)without return_type with parameter
+c)with return without parameter
+d)with return type with parameter
+
+e.recursion(function call it self)
+--------------------------------

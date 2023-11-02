@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    Function
+
+    <script>
+        let x = 36, y = 4;
+        function myFunction() {
+            let a = 90;
+            document.write("This is my function<br>");
+        }
+        // Calling the function
+        myFunction();
+        function add(a, b) {
+            let result = a + b;
+            document.write('Addition of two numbers: '+ result + '<br>');
+        }
+        // Calling the function with parameters
+        add(5, 7);
+        function subtract(x, y){
+            let difference = x - y;
+            return difference;
+        }
+        document.write(`Subtraction of ${y} from ${x}: ` + subtract(x, y) +'<br>');
+        function multiply(){
+            var num1 = parseInt(prompt('Enter first number'));
+            var num2 = parseInt(prompt('Enter second number'));
+            var total = num1 * num2;
+            return total;
+        }
+        // Calling the function with parameters
+        document.write('Multiplication of two numbers: '+multiply()+'<br>');
+        function modulo(x, y)
+        {
+            return x%y;
+        }
+        // Calling the function with parameters
+        document.write('Modulus of two numbers: '+modulo(x, y)+'<br>');
+
+    </script>
+</body>
+</html>
