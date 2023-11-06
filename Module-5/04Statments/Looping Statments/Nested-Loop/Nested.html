@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Loop</title>
+</head>
+<body>
+    <!-- 
+        *
+        **
+        ***
+        ****
+        *****
+     -->
+    <script>
+        let i, j;
+        for(i = 0; i < 5; i++) //outer loop use for the row
+        {
+            for(j = 0; j <= i; j++){ //inner loo used for the column
+                document.write('* ');
+                console.log(j);
+            }
+            document.write("<br/>");
+        }
+    </script>
+    <!-- i = 0
+        01234
+        0123
+        012
+        01
+        0
+
+     -->
+</body>
+</html>
