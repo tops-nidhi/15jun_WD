@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade Out</title>
+    <style>
+        .fadeOut {
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+                // $(this).fadeOut();
+                // $(this).fadeOut('fast');
+                // $(this).fadeOut('slow');
+                $(this).fadeOut(3000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="fadeOut">
+        <img src="https://s3.scoopwhoop.com/anj/loading/594155876.gif" alt="" class="loader">
+    </div>
+    
+</body>
+</html>

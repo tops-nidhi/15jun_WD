@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loader</title>
+    <style>
+        .fadeOut {
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            place-items: center;
+        }
+        .main{
+            display: none;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        // $(document).ready(function(){
+        //     $('img').click(function(){
+        //         // $(this).fadeOut();
+        //         // $(this).fadeOut('fast');
+        //         // $(this).fadeOut('slow');
+        //         $(this).fadeOut(3000);
+        //     });
+        // });
+        // $(window).on('load', function(){
+        //     $('.fadeOut').fadeOut(1000);
+        //     $('.main').fadeIn(5000);
+        // });
+        let img = document.getElementsByTagName('img');
+            setTimeout(slide, 1000);
+            function slide()
+            {
+                for(i = 0; i < img.length; i++){
+                    img[i+1].style.display = 'block';
+                    img[i].style.display = 'block'
+                }
+            }
+    </script>
+</head>
+<body>
+    <div class="fadeOut">
+        <img src="https://s3.scoopwhoop.com/anj/loading/594155876.gif" alt="" class="loader">
+        <img src="https://moreconvert.com/wp-content/uploads/2023/01/sc-offer-in-lists.png" alt="" width="100%" class="cart">
+        <img src="https://s3.scoopwhoop.com/anj/loading/594155876.gif" alt="" class="loader">
+        <img src="https://moreconvert.com/wp-content/uploads/2023/01/sc-offer-in-lists.png" alt="" width="100%" class="cart">
+        <img src="https://s3.scoopwhoop.com/anj/loading/594155876.gif" alt="" class="loader">
+        <img src="https://moreconvert.com/wp-content/uploads/2023/01/sc-offer-in-lists.png" alt="" width="100%" class="cart">
+    </div>
+    <div class="main">
+    
+    </div>
+</body>
+</html>

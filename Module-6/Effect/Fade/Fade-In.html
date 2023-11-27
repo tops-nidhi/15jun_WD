@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade In</title>
+    <style>
+        .cart{
+            display: none;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                // $('.cart').fadeIn();
+                // $('.cart').fadeIn('fast');
+                // $('.cart').fadeIn('slow');
+                $('.cart').fadeIn(2000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <img src="https://moreconvert.com/wp-content/uploads/2023/01/sc-offer-in-lists.png" alt="" width="100%" class="cart">
+    <button>fadeIn</button>
+    
+</body>
+</html>

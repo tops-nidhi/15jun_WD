@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide</title>
+    <style>
+        .hide {
+            height: auto;
+            width: 75%;
+            display: grid;
+            place-items: center;
+            outline: 3px solid currentColor;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function() {
+                $('p').hide();
+                $('h2').text('Show');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="hide">
+        <h2>Hide</h2>
+        <p>Show Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor sed a nisi explicabo libero assumenda, perferendis animi quos error, dicta dignissimos distinctio ipsum voluptatibus fugiat quod consequuntur incidunt nesciunt fugit!</p>
+        <button type="button">Hide Content</button>
+    </div>
+</body>
+</html>
