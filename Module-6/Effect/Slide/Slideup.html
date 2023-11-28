@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        ul{
+            width: auto;
+            height: auto;
+            background: #000;
+            display: none;
+        }
+        li{
+            list-style: none;
+        }
+        li a{
+            text-decoration: none;
+            color: lightseagreen;
+            font-size: 2em;
+        }
+        button{
+            border: none;
+            padding: 10px;
+        }
+        button i{
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <button type="button"><i class="fa-solid fa-bars fa-2xl"></i></button>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">FeedBack</a></li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                // $('ul').slideToggle();
+                // $('ul').slideToggle('fast');
+                // $('ul').slideToggle('slow');
+                $('ul').slideToggle(1500);
+            });
+        });
+    </script>
+</body>
+</html>
