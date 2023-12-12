@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>body
+    <div>div
+        <p>p</p>
+        <ul>ul
+            <li>li</li>
+            <li>li</li>
+            <li>li</li>
+        </ul>
+        <h1>h1</h1>
+        <h2>h2</h2>
+
+        <p>p </p>
+        <ol>ol
+            <li>li
+                <dt>dt</dt>
+                <dd>dd</dd>
+            </li>
+            <li>li</li>
+            <h1>h1</h1>
+            <h3>h3</h3>
+        </ol>
+        <span>span</span>
+        <span>span</span>
+        <span>span</span>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("h1").prev().css({ "color": "blue", "border": "3px dashed red", "margin": "5px" });
+        });
+    </script>
+
+</body>
+
+</html>
