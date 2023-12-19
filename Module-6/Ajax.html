@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+</head>
+
+<body>
+    <p></p>
+    <button type="button">Click me</button>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                jQuery.ajax({
+                    url: 'Temp.txt',
+                    success: function (data) {
+                        $("p").html(data);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
